@@ -1,0 +1,57 @@
+.sobre {
+    display: flex;
+    margin-bottom: 40px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-sobre p {
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+.linguagens {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    font-size: 2.5em;
+}
+
+.linguagens .fa-html5 {
+    color: #e34f26;
+}
+
+.linguagens .fa-css3-alt {
+    color: #1572b6; 
+}
+
+.linguagens .fa-js-square {
+    color: #f7df1e; 
+}
+
+.linguagens .fa-python {
+    color: #306998; 
+}
+
+.linguagens .fa-database {
+    color: #f29111; 
+}
+
+.linguagens i {
+    transition: transform 0.4s;
+}
+
+.linguagens i:hover {
+    transform: scale(1.2); 
+}
+
+.img-sobre {
+    padding: 20px;
+}
+
+.img-sobre img {
+    border-radius: 50%;
+    width: 345px;
+    box-shadow: 0 0 23px var(--primary-color);
+}

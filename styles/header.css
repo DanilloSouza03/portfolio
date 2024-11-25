@@ -1,0 +1,40 @@
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: #333333a9;
+    backdrop-filter: blur(12px);
+    color: var(--primary-color);
+    padding: 10px 130px;
+    text-align: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.header-menu li {
+    font-size: 1.15rem;
+    margin: 0 15px;
+}
+
+.header-menu a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-menu a:hover {
+    color: #fff;
+}

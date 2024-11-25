@@ -1,0 +1,128 @@
+#checkboxes-container {
+    display: flex;
+    gap: 14px;
+}
+
+#checkboxes-container label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--text-color);
+}
+
+.projects-grid, .cursos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.project-card, .curso-card {
+    background-color: var(--background-light);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--box-shadow-color);
+    max-width: 325px;
+    margin: 20px;
+}
+
+.project-card:hover, .curso-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px var(--box-shadow-color);
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--button-bg);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    z-index: 100;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: var(--button-bg-hover);
+}
+
+.content {
+    padding: 15px;
+}
+
+.content p {
+    line-height: 1.72;
+    margin-bottom: 4px;
+}
+
+.card-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--card-color);
+    border-radius: 10px;
+    margin-top: 2%;
+    padding-block: 5px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.tag {
+    background-color: var(--tag-color);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.links a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.links a {
+    padding: 7px 7px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.link-github {
+    background-color: #1c1c1c;
+    border: 2px solid #030303;
+}
+
+.link-deploy {
+    background-color: #28a745; 
+    border: 2px solid #218838;
+}
+
+.links a:hover {
+    transform: scale(1.05);
+}
